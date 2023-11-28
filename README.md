@@ -1,6 +1,6 @@
 # Music-Mood-Detection
 
-## Team Members:
+### Team Members:
 - Arpana Prajapati
 - Gargi Bakshi
 - Palle Bhavana
