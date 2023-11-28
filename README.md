@@ -6,7 +6,7 @@
 - Palle Bhavana
 - Sathwika Reddy
 
-#### This is our final project for CS 337 (Autumn 2023)
+### This is our final project for CS 337 (Autumn 2023)
 - the main dataset is ```shuffled_900.csv```
 - ```all_models.ipynb``` contains the implementation of all the models we trained for this task
 - ```best_model.ipynb``` uses the XGBoost model for predictions
