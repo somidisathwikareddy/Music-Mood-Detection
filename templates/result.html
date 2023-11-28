@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Link Processor - Result</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .mood {
+            font-weight: bold;
+            color: #009688;
+            font-size: 18px; /* Adjust the font size as needed */
+        }
+        .song-info {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .song-info p {
+            margin: 5px 0;
+        }
+        .lyrics {
+            white-space: pre-wrap;
+            font-size: 14px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            color: #0069d9;
+            text-decoration: none;
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Result</h1>
+
+    <p><strong>Mood:</strong> <span class="mood">{{ result["Mood"] }}</span></p>
+
+    <div class="song-info">
+        <p><strong>Title:</strong> {{ result["Title"] }}</p>
+        <p><strong>Artist:</strong> {{ result["Artist"] }}</p>
+        <p><strong>Album:</strong> {{ result["Album"] }}</p>
+        <p><strong>Release Date:</strong> {{ result["Release Date"] }}</p>
+        <p><strong>Popularity:</strong> {{ result["Popularity"] }}</p>
+        <!-- Add more song attributes as needed -->
+    </div>
+
+    <div class="lyrics">
+        <p><strong>Lyrics:</strong></p>
+        {{ result["Lyrics"] }}
+    </div>
+
+    <a href="/">Go Back</a>
+</body>
+</html>
+
+
+
