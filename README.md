@@ -22,4 +22,4 @@ run ```app.py``` and the cell containing the app in ```final_model.ipynb```
 The detailed report of this project is the file [Music_Mood_Detection.pdf](Music_Mood_Detection.pdf)
 
 ### Demo of the project
-![](https://github.com/somidisathwikareddy/Music-Mood-Detection/blob/main/demo.gif)
+![](https://github.com/somidisathwikareddy/Music-Mood-Detection/blob/main/demo_final.gif)
